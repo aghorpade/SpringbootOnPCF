@@ -1,0 +1,7 @@
+---
+applications:
+- name: springbootOnPCF
+  memory: 1024M
+  instances: 1
+  buildpack: java_buildpack
+  path: target/SpringBootDemo-0.0.1-SNAPSHOT.jar
